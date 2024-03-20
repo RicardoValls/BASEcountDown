@@ -13,7 +13,7 @@ var refresh = setInterval(function baseCountDown() {
   //Check if the date has expired
   if (timeLeft < 0) {
     clearInterval(refresh);
-    document.getElementById("countMessage").innerHTML = "UHOH, Something went wrong!";
+    document.getElementById("countMessage").innerHTML = "<div class='col-12 rounded p-1 p-md-3 mx-1 bg-black'>Stay tunned for news!</div>";
   }  else {
     // Time calculations for days, hours, minutes and seconds
     let days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));

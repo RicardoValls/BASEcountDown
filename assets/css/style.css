@@ -1,3 +1,4 @@
 body {background-color: #1E242D;}
-.poppins {font-family: "Poppins", sans-serif; font-weight: 600; font-style: normal;}
+#countMessage {letter-spacing: 1px;}
+.poppins {font-family: "Poppins", sans-serif; font-weight: 400; font-style: normal;}
 .bg-black {background-color: #1E242D; color: #fff}
